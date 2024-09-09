@@ -1,0 +1,28 @@
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-areas:
+    "box1 box2 box3"
+    "box4 box5 box6"
+    "box7 box8 box9";
+}
+
+
+
+#square1 { 
+  grid-area: box1;
+  background-color: red;
+}
+#square2 { 
+  grid-area: box2;
+}
+
+#square3 { grid-area: box3; }
+#square4 { grid-area: box4; }
+#square5 { grid-area: box5; }
+#square6 { grid-area: box6; }
+#square7 { grid-area: box7; }
+#square8 { grid-area: box8; }
+#square9 { grid-area: box9; }
